@@ -5,8 +5,8 @@ import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Adjusted path: this tells Render to run your real server file even if nested
-const serverPath = join(__dirname, "usps_dashboard", "server.js");
+// The correct path: server.js is in the same directory as this file
+const serverPath = join(__dirname, "server.js");
 
 // Launch your app
 const child = spawn("node", [serverPath], { stdio: "inherit" });
