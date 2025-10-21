@@ -1,0 +1,247 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #0e1117;
+  color: #e2e6ed;
+}
+
+/* Global layout */
+.app-dark {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  padding: 1.5rem 3rem;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #151921;
+  padding: 0.8rem 2rem;
+  border-bottom: 1px solid #242a36;
+}
+.navbar-logo {
+  color: #00a2ff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+.navbar-center .nav-link {
+  margin: 0 1rem;
+  color: #e2e6ed;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar-center .nav-link:hover {
+  color: #00a2ff;
+}
+.user-role {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+.logout-btn {
+  background: #00a2ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background: #0085d4;
+}
+
+/* HEADINGS */
+.section-header {
+  margin-bottom: 1rem;
+}
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.section-subtitle {
+  color: #9aa2b2;
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+}
+.section-title-small {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* CARDS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.card {
+  background: #1c1f26;
+  border: 1px solid #252a36;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+.metric h3 {
+  font-size: 0.9rem;
+  color: #9aa2b2;
+  margin: 0;
+}
+.metric p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00a2ff;
+  margin-top: 0.3rem;
+}
+
+/* MAP */
+.map-view {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border: 1px solid #252a36;
+}
+
+/* TABLE */
+.table-dark {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1c1f26;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #242a36;
+  color: #00a2ff;
+  text-align: left;
+  padding: 10px;
+  font-weight: 500;
+}
+.table-dark td {
+  padding: 10px;
+  border-top: 1px solid #2c323f;
+}
+.table-dark tr:hover {
+  background: #222734;
+}
+
+/* LOG CARDS */
+.log-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.log-card {
+  background: #1c1f26;
+  border: 1px solid #252a36;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  flex: 1 1 150px;
+  text-align: center;
+}
+.log-card span {
+  display: block;
+  font-size: 0.85rem;
+  color: #9aa2b2;
+}
+.log-card b {
+  font-size: 1.4rem;
+  color: #00a2ff;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #5a6375;
+  border-top: 1px solid #252a36;
+  margin-top: 2rem;
+}
+
+/* LOGIN PAGE */
+.login-page {
+  background: #0e1117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login-card {
+  background: #1c1f26;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  border: 1px solid #252a36;
+}
+.login-card h2 {
+  margin-bottom: 1rem;
+  color: #00a2ff;
+}
+.login-card input {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  background: #151921;
+  color: #e2e6ed;
+}
+.login-card button {
+  width: 100%;
+  background: #00a2ff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem;
+  color: white;
+  cursor: pointer;
+}
+.login-card button:hover {
+  background: #0085d4;
+}
+.error {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+}
+.content { padding: 20px; color: #e5e7eb; background:#0b0d10; min-height:100vh; }
+.topbar { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.pillbar { display:flex; gap:8px; flex-wrap:wrap; }
+.pill { background:#111827; border:1px solid #1f2937; padding:6px 10px; border-radius:999px; font-size:.9rem; }
+.toolbar { display:flex; gap:8px; margin:12px 0; }
+.toolbar input, .toolbar select { background:#0f172a; border:1px solid #1f2937; color:#e5e7eb; padding:8px 10px; border-radius:8px; }
+.btn { background:#2563eb; color:white; border:none; padding:8px 12px; border-radius:8px; text-decoration:none; }
+
+.card { background:#0f1320; border:1px solid #1f2937; border-radius:12px; padding:14px; }
+.table { width:100%; border-collapse:collapse; margin-top:6px; }
+.table th, .table td { padding:10px; border-bottom:1px solid #1f2937; }
+.table th { background:#12182b; color:#d1d5db; text-align:left; }
+
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; }
+.form-row { display:flex; gap:10px; align-items:center; margin:8px 0; }
+.form-row input { flex:1; background:#0f172a; border:1px solid #1f2937; color:#e5e7eb; padding:8px 10px; border-radius:8px; }
+.hint { color:#9ca3af; font-size:.9rem; margin-top:6px; }
+
+/* USPS / CSA branding tweaks */
+.topbar h1 {
+  color: #00a2ff;
+  border-bottom: 2px solid #c8102e; /* USPS red */
+  padding-bottom: 4px;
+}
+
+.btn-primary {
+  background: #c8102e;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #a00d23;
+}
+

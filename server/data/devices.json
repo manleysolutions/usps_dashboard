@@ -1,0 +1,8 @@
+[
+  { "device_id":"FX3110-01","type":"inseego_fx3110","label":"USPS-HQ Modem","imei":"990018030038545","iccid":"8901240204219433413","site_id":"USPS-001","status":"Staged" },
+  { "device_id":"FX3110-02","type":"inseego_fx3110","label":"USPS-Miami Modem","imei":"990018030038546","iccid":"8901240204219433414","site_id":"USPS-002","status":"Staged" },
+  { "device_id":"FX3110-03","type":"inseego_fx3110","label":"USPS-LA Modem","imei":"990018030038547","iccid":"8901240204219433415","site_id":"USPS-003","status":"Staged" },
+  { "device_id":"ATA191-01","type":"cisco_ata191","label":"ATA – Tampa","serial":"FCH2629P04J","site_id":"USPS-001","status":"Staged" },
+  { "device_id":"ATA-OTHER-01","type":"oem_ata","label":"ATA – Miami","serial":"OEM123456","site_id":"USPS-002","status":"Staged" },
+  { "device_id":"CSA-0001","type":"csa_v1","label":"CSA – LA Elevator","serial":"CSA0001","site_id":"USPS-003","status":"Staged" }
+]

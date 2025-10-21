@@ -1,0 +1,5 @@
+[
+  { "site_id":"USPS-001","account":"USPS","name":"Tampa P&DC","address":"123 Main St, Tampa, FL","lat":27.96,"lng":-82.45,"status":"Pending" },
+  { "site_id":"USPS-002","account":"USPS","name":"Miami Center","address":"100 Biscayne Blvd, Miami, FL","lat":25.77,"lng":-80.19,"status":"Pending" },
+  { "site_id":"USPS-003","account":"USPS","name":"LA Hub","address":"700 Alameda St, Los Angeles, CA","lat":34.05,"lng":-118.24,"status":"Pending" }
+]

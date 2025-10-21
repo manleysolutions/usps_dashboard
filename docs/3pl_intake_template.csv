@@ -1,0 +1,4 @@
+Site ID,Device Type,SKU,Serial/IMEI,ICCID,Static IP,POC Name,POC Phone,Ship To Address,Notes
+USPS-001,inseego_fx3110,FX3110-5G,990018030038545,8901240204219433413,162.190.64.73,John Tech,555-0101,"123 Main St, Tampa, FL",Pilot kit
+USPS-001,cisco_ata191,ATA-191,FCH2629P04J,,,,
+USPS-001,csa_v1,CSA-EDGE,CSA-0001,,,,
