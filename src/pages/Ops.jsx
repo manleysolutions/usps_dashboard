@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-import AlertsPanel from "../components/AlertsPanel";
+import { AlertsPanel } from "../components/AlertsPanel";
 import DataTable from "../components/DataTable";
 import TelnyxMetrics from "../components/Telnyxmetrics";
 import MapView from "../components/MapView";
