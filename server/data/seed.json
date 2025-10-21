@@ -1,55 +1,61 @@
 {
   "sites": [
-    {"site_id":"USPS-001","name":"Jacksonville Hub","address":"Jacksonville, FL","lat":30.33,"lng":-81.65,"status":"Online"},
-    {"site_id":"USPS-002","name":"Tampa Processing","address":"Tampa, FL","lat":27.95,"lng":-82.46,"status":"Online"},
-    {"site_id":"USPS-003","name":"Orlando Distribution","address":"Orlando, FL","lat":28.54,"lng":-81.38,"status":"Pending"},
-    {"site_id":"USPS-004","name":"Atlanta Distribution","address":"Atlanta, GA","lat":33.75,"lng":-84.39,"status":"Offline"},
-    {"site_id":"USPS-005","name":"Charlotte Carrier Annex","address":"Charlotte, NC","lat":35.19,"lng":-80.84,"status":"Pending"},
-    {"site_id":"USPS-006","name":"Washington DC Hub","address":"Washington, DC","lat":38.91,"lng":-77.04,"status":"Online"},
-    {"site_id":"USPS-007","name":"Newark Mail Center","address":"Newark, NJ","lat":40.73,"lng":-74.17,"status":"Online"},
-    {"site_id":"USPS-008","name":"Philadelphia Sort Center","address":"Philadelphia, PA","lat":39.95,"lng":-75.16,"status":"Pending"},
-    {"site_id":"USPS-009","name":"Boston Main Hub","address":"Boston, MA","lat":42.36,"lng":-71.06,"status":"Online"},
-    {"site_id":"USPS-010","name":"New York Metro Facility","address":"New York, NY","lat":40.71,"lng":-74.00,"status":"Online"},
-    {"site_id":"USPS-011","name":"Chicago Mail Plant","address":"Chicago, IL","lat":41.88,"lng":-87.63,"status":"Online"},
-    {"site_id":"USPS-012","name":"St. Louis Annex","address":"St. Louis, MO","lat":38.63,"lng":-90.20,"status":"Online"},
-    {"site_id":"USPS-013","name":"Dallas Processing","address":"Dallas, TX","lat":32.78,"lng":-96.80,"status":"Online"},
-    {"site_id":"USPS-014","name":"Houston Hub","address":"Houston, TX","lat":29.76,"lng":-95.36,"status":"Online"},
-    {"site_id":"USPS-015","name":"Phoenix Hub","address":"Phoenix, AZ","lat":33.45,"lng":-112.07,"status":"Pending"},
-    {"site_id":"USPS-016","name":"Denver Mail Facility","address":"Denver, CO","lat":39.74,"lng":-104.99,"status":"Pending"},
-    {"site_id":"USPS-017","name":"Salt Lake City Hub","address":"Salt Lake City, UT","lat":40.76,"lng":-111.89,"status":"Offline"},
-    {"site_id":"USPS-018","name":"Seattle Distribution","address":"Seattle, WA","lat":47.62,"lng":-122.33,"status":"Online"},
-    {"site_id":"USPS-019","name":"Portland Processing","address":"Portland, OR","lat":45.52,"lng":-122.68,"status":"Online"},
-    {"site_id":"USPS-020","name":"San Francisco Sort Center","address":"San Francisco, CA","lat":37.77,"lng":-122.41,"status":"Pending"},
-    {"site_id":"USPS-021","name":"Los Angeles Hub","address":"Los Angeles, CA","lat":34.05,"lng":-118.25,"status":"Online"},
-    {"site_id":"USPS-022","name":"San Diego Facility","address":"San Diego, CA","lat":32.71,"lng":-117.16,"status":"Pending"},
-    {"site_id":"USPS-023","name":"Las Vegas Annex","address":"Las Vegas, NV","lat":36.17,"lng":-115.14,"status":"Offline"},
-    {"site_id":"USPS-024","name":"Anchorage Mail Hub","address":"Anchorage, AK","lat":61.22,"lng":-149.9,"status":"Online"},
-    {"site_id":"USPS-025","name":"Honolulu Facility","address":"Honolulu, HI","lat":21.3,"lng":-157.85,"status":"Pending"}
+    {"site_id": "USPS-001", "name": "Jacksonville Hub", "address": "Jacksonville, FL", "lat": 30.33, "lng": -81.65, "status": "Online"},
+    {"site_id": "USPS-002", "name": "Tampa Processing", "address": "Tampa, FL", "lat": 27.95, "lng": -82.46, "status": "Online"},
+    {"site_id": "USPS-003", "name": "Orlando Distribution", "address": "Orlando, FL", "lat": 28.54, "lng": -81.38, "status": "Pending"},
+    {"site_id": "USPS-004", "name": "Atlanta Distribution", "address": "Atlanta, GA", "lat": 33.75, "lng": -84.39, "status": "Offline"},
+    {"site_id": "USPS-005", "name": "Charlotte Carrier Annex", "address": "Charlotte, NC", "lat": 35.19, "lng": -80.84, "status": "Pending"},
+    {"site_id": "USPS-006", "name": "Washington DC Hub", "address": "Washington, DC", "lat": 38.91, "lng": -77.04, "status": "Online"},
+    {"site_id": "USPS-007", "name": "Newark Mail Center", "address": "Newark, NJ", "lat": 40.73, "lng": -74.17, "status": "Online"},
+    {"site_id": "USPS-008", "name": "Philadelphia Sort Center", "address": "Philadelphia, PA", "lat": 39.95, "lng": -75.16, "status": "Pending"},
+    {"site_id": "USPS-009", "name": "Boston Main Hub", "address": "Boston, MA", "lat": 42.36, "lng": -71.06, "status": "Online"},
+    {"site_id": "USPS-010", "name": "New York Metro Facility", "address": "New York, NY", "lat": 40.71, "lng": -74.00, "status": "Online"},
+    {"site_id": "USPS-011", "name": "Chicago Mail Plant", "address": "Chicago, IL", "lat": 41.88, "lng": -87.63, "status": "Online"},
+    {"site_id": "USPS-012", "name": "St. Louis Annex", "address": "St. Louis, MO", "lat": 38.63, "lng": -90.20, "status": "Online"},
+    {"site_id": "USPS-013", "name": "Dallas Processing", "address": "Dallas, TX", "lat": 32.78, "lng": -96.80, "status": "Online"},
+    {"site_id": "USPS-014", "name": "Houston Hub", "address": "Houston, TX", "lat": 29.76, "lng": -95.36, "status": "Online"},
+    {"site_id": "USPS-015", "name": "Phoenix Hub", "address": "Phoenix, AZ", "lat": 33.45, "lng": -112.07, "status": "Pending"},
+    {"site_id": "USPS-016", "name": "Denver Mail Facility", "address": "Denver, CO", "lat": 39.74, "lng": -104.99, "status": "Pending"},
+    {"site_id": "USPS-017", "name": "Salt Lake City Hub", "address": "Salt Lake City, UT", "lat": 40.76, "lng": -111.89, "status": "Offline"},
+    {"site_id": "USPS-018", "name": "Seattle Distribution", "address": "Seattle, WA", "lat": 47.62, "lng": -122.33, "status": "Online"},
+    {"site_id": "USPS-019", "name": "Portland Processing", "address": "Portland, OR", "lat": 45.52, "lng": -122.68, "status": "Online"},
+    {"site_id": "USPS-020", "name": "San Francisco Sort Center", "address": "San Francisco, CA", "lat": 37.77, "lng": -122.41, "status": "Pending"},
+    {"site_id": "USPS-021", "name": "Los Angeles Hub", "address": "Los Angeles, CA", "lat": 34.05, "lng": -118.25, "status": "Online"},
+    {"site_id": "USPS-022", "name": "San Diego Facility", "address": "San Diego, CA", "lat": 32.71, "lng": -117.16, "status": "Pending"},
+    {"site_id": "USPS-023", "name": "Las Vegas Annex", "address": "Las Vegas, NV", "lat": 36.17, "lng": -115.14, "status": "Offline"},
+    {"site_id": "USPS-024", "name": "Anchorage Mail Hub", "address": "Anchorage, AK", "lat": 61.22, "lng": -149.9, "status": "Online"},
+    {"site_id": "USPS-025", "name": "Honolulu Facility", "address": "Honolulu, HI", "lat": 21.3, "lng": -157.85, "status": "Pending"}
   ],
   "devices": [
-    { "device_id":"FX3110-01","type":"inseego_fx3110","carrier":"T-Mobile","imei":"867000000001","status":"Online","site_id":"USPS-001" },
-    { "device_id":"ATA-C191-01","type":"cisco_ata191","serial":"ATA191X001","status":"Configured","site_id":"USPS-001" },
-    { "device_id":"CSA-VO-01","type":"csa_v1","serial":"CSA0001","status":"Assigned","site_id":"USPS-001" },
-    { "device_id":"FX3110-02","type":"inseego_fx3110","carrier":"T-Mobile","imei":"867000000002","status":"Staged","site_id":"USPS-002" },
-    { "device_id":"ATA-OEM-01","type":"oem_ata","serial":"OEMATA001","status":"Staged","site_id":"USPS-002" }
+    {"device_id": "FX3110-01", "type": "inseego_fx3110", "carrier": "T-Mobile", "imei": "867000000001", "status": "Online", "site_id": "USPS-001"},
+    {"device_id": "ATA-C191-01", "type": "cisco_ata191", "serial": "ATA191X001", "status": "Configured", "site_id": "USPS-001"},
+    {"device_id": "CSA-VO-01", "type": "csa_v1", "serial": "CSA0001", "status": "Assigned", "site_id": "USPS-001"},
+    {"device_id": "FX3110-02", "type": "inseego_fx3110", "carrier": "T-Mobile", "imei": "867000000002", "status": "Staged", "site_id": "USPS-002"},
+    {"device_id": "ATA-OEM-01", "type": "oem_ata", "serial": "OEMATA001", "status": "Staged", "site_id": "USPS-002"}
   ],
   "users": [
-    { "user_id":"u-1", "username":"admin", "role":"superadmin", "display":"SuperAdmin" }
+    {"user_id": "u-1", "username": "admin", "role": "superadmin", "display": "SuperAdmin"}
   ],
-  "staging": { "manifests": [], "progress": { "total": 0, "scanned": 0, "configured": 0, "validated": 0 } },
+  "staging": {
+    "manifests": [],
+    "progress": {"total": 0, "scanned": 0, "configured": 0, "validated": 0}
+  },
   "installations": [
     {
-      "id":"inst-001",
-      "site_id":"USPS-001",
-      "window_start":"2025-10-28T14:00:00Z",
-      "window_end":"2025-10-28T16:00:00Z",
-      "installer":{"company":"Converge IoT","name":"Tech A","phone":"+1-555-0101"},
-      "status":"scheduled",
-      "notes":"Pilot—bring spare SIM"
+      "id": "inst-001",
+      "site_id": "USPS-001",
+      "window_start": "2025-10-28T14:00:00Z",
+      "window_end": "2025-10-28T16:00:00Z",
+      "installer": {"company": "Converge IoT", "name": "Tech A", "phone": "+1-555-0101"},
+      "status": "scheduled",
+      "notes": "Pilot—bring spare SIM"
     }
   ],
   "syncLogs": [
-    { "id":"sync-001","ts":"2025-10-20T17:00:00Z","site_id":"USPS-001","reporter":"FX3110-01","component":"inseego","result":"ok","message":"Heartbeat 60s" }
+    {"id": "sync-001", "ts": "2025-10-20T17:00:00Z", "site_id": "USPS-001", "reporter": "FX3110-01", "component": "inseego", "result": "ok", "message": "Heartbeat 60s"}
   ],
-  "telnyx": { "metrics": { "calls":257,"success":0.957,"avg_duration_sec":84 }, "calls": [] }
+  "telnyx": {
+    "metrics": {"calls": 257, "success": 0.957, "avg_duration_sec": 84},
+    "calls": []
+  }
 }
